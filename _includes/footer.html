@@ -1,0 +1,46 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="section_footer__heading">
+						CONTACT INFO
+                    </h5>
+                    <div class="section_footer__open">
+						<div><i class="fas fa-map-marker-alt" style="padding-right: 9px;"></i>Akadeemia tee 24, Tallinn</div>
+                        <div><i class="far fa-envelope" style="padding-right: 9px;"></i>thesocial.tallinn@gmail.com</div>
+                        <div><i class="fas fa-phone" style="padding-right: 9px;"></i>+372 56854024</div>
+                    </div>
+                    <ul class="list-inline quicklinks">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="section_footer__heading">
+						OPENING HOURS
+					</h5>
+                    <div class="section_footer__open">
+						<div class="section_footer__open__days">Monday - FRIDAY</div>
+						<div class="section_footer__open__time">11:30 AM - 10:00 PM</div>
+                    </div>
+                    <div class="section_footer__open">
+						<div class="section_footer__open__days">Saturday - Sunday</div>
+						<div class="section_footer__open__time">12:00 PM - 10:00 PM</div>
+					</div>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="section_footer__heading">
+						ABOUT US
+					</h5>
+                    <div class="section_footer__open">
+                        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+						<div class="section_footer__open__days">Web.Dev <a href="https://www.facebook.com/deepak.rampal.963" target="_blank">@Silicon DevOps</a></div>
+						<div class="section_footer__open__time"><a href="">HH.Mahadev Oü (14429267)</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>

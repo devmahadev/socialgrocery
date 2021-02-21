@@ -1,0 +1,15 @@
+---
+title: The S(@)cial
+subtitle: Location and Expected Opening
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: The S(@)cial (Resto, BBQ & BAR) is expected to open for the public by 1st June at Akadeemia tee 24 in Taltech University campus. If you're looking for job (Manager, Chef, Pizza Maker, Waiter/Waitress, Cleaning Person), feel free to contact at +372 56828921. 
+
+---

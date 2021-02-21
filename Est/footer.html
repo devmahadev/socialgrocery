@@ -1,0 +1,32 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <ul class="list-inline quicklinks">
+                        <li>
+                            Web.Dev <a href="https://www.facebook.com/deepak.rampal.963" target="_blank">@Silicon DevOps</a>
+                        </li>  <br>
+                        <li><a href="">HH.Mahadev Oü (14429267)</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
+                          
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>The S(@)cial</li><br>
+                        <li>Akadeemia tee 24, Tallinn.</li>
+                        <li><img src="img/email.png" alt="email" height="20" width="20"> thesocial.tallinn@gmail.com</li>
+                        <li><img src="img/mobile.png" alt="mobile" height="20" width="20"> +372-56854024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

@@ -1,0 +1,95 @@
+url: https://www.socialgrocery.ee/
+baseurl: 
+
+# Site settings
+title: The Social 
+email: thesocial.tallinn@gmail.com
+description: "thesocial.tallinn@gmail.com"
+
+# Team names, titles and social links
+people:
+#- name: Apneet K.
+#  pic: 1
+#  position: Director HR, Founder/CEO 
+ #  social:
+ #    - title: facebook
+ #      url: #
+
+#- name: Deepak R.
+#  pic: 3
+#  position: Director Finance  |
+#   Business & IT Development
+ #  social:
+  #   - title: instagram
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
+
+# -  name: Shankar S.
+   # pic: 2
+  #  position: Director Restaurant Operations
+ #  social:
+#     - title: instagram
+ #      url: #
+ #    - title: facebook
+ #      url: #
+  #   - title: 
+  #     url: #
+
+- name: Abhishek R.
+  pic: 5
+  position: Director Restaurant Operations | Manager
+ #  social:
+  #   - title: instagram
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
+
+- name: Rajesh B.
+  pic: 4
+  position: Head Chef | Tandoor, Grill Master
+ #  social:
+  #   - title: instagram
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
+
+- name: EkRaj G.
+  pic: 6
+  position: Head Chef | Curry Master
+ #  social:
+  #   - title: instagram
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/thesocialtallinn/
+  - title: facebook-f
+    url: https://www.facebook.com/thesocial.tallinn/
+  #- title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+ # - title: bitbucket 
+   # url: http://bitbucket.org/jekyll
+ # - title: github
+  #  url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Akadeemia tee 24
+  - line: Mustamäe, 12611 Tallinn
+
+# Build settings
+#markdown: kramdown
+#permalink: pretty
