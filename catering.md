@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Amet Lacina
+title: Catering
 ---
