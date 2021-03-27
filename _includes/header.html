@@ -1,96 +1,36 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-				<div style="style=;font-size: 24px;/* padding-top: 50px; *//* padding-left: 5px; */display: inline;position: relative;/* display: inline-block; */width: 2em;height: 2em;line-height: 2.3em;vertical-align: middle;" font-size:="">
-                        <i class="fas fa-sun fa-lg fa-inverse-sun-icon" aria-hidden="true"></i>
-                  
-				</div>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                 <li>
-                        <a class="page-scroll" href="#orderFood">E-Shop</a>
-                </li> 
-				     
-					<li>
-                        <a class="page-scroll" href="#paymentOnline">Pay Online</a>
-                    </li>
-				
-					 <li>
-                        <a class="page-scroll" href="#dailyMeal">Business Customer</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#menuItems">Groceries</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#about">S(@)cial</a>
-                    </li>
-
-					<li>
-                        <a class="page-scroll" href="#contact">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-	<!--<video autoplay loop muted class="wrapper__video">
-      <source src="/img/TheSocialCover2020.mp4">
-   </video> -->
-        <div class="container">
-            <div class="intro-text">
-                <ul class="list-inline quicklinks">
-                    {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}">
-                            <i class="fab fa-{{ network.title }} fa-lg" style="color: white !important;"></i></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                <div class="intro-heading">Coming Soon !!</div> 
-			     <div class="intro-heading">International Grocery Store</div> 
-                <div class="intro-lead-in">We stock over 1,000 items from around the world. </br> Explore our products and recipes by cuisine </div>
-                <div class="intro-lead-in">Connect with us directly on WhatsApp <br>+372 56854024</div>
-                <a href="#contact" class="page-scroll btn btn-x11">Send Query</a>
-                
-                <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag --> 
-                    <span class="orderFood-button33" data-glf-cuid="83413cd8-a9b2-493b-8fe9-702ec0d5f8ac" data-glf-ruid="54016de6-76db-4c8e-8707-5c3bb4b9c762" >E-Shop</span> 
-                    <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
-
-				<a href="#paymentOnline" class="page-scroll btn btn-x22">Pay Here</a>
-				
-                <div class="slide-sep"></div>
-								<!-- <h2 class="open-hours">Oleme Avatud || We are open: 11:30 - 22:00</h2>
-                <h2 class="open-hours">We plan to open again on 2nd April Onwards after 15 days of lockdown </h2> --> 
-                <div class="intro-lead-in">
-                    A place you trust & get high quality food only !!
-                </div>
-                <div class="slide-sep"></div>
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
+<!-- Header -->
+  <header id="header">
+    <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
+    <ul class="icons">
+      {% if site.twitter_url %}
+      <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+      {% endif %}
+      {% if site.googleplus_url %}
+      <li><a href="{{ site.googleplus_url }}" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+      {% endif %}
+      {% if site.facebook_url %}
+      <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+      {% endif %}
+      {% if site.instagram_url %}
+      <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+      {% endif %}
+      {% if site.pinterest_url %}
+      <li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+      {% endif %}
+      {% if site.500px_url %}
+      <li><a href="{{ site.500px_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
+      {% endif %}
+      {% if site.gitlab_url %}
+      <li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+      {% endif %}
+      {% if site.github_url %}
+      <li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+      {% endif %}
+      {% if site.slack_url %}
+      <li><a href="{{ site.slack_url }}" class="icon fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+      {% endif %}
+      {% if site.linkedin_url %}
+      <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+      {% endif %}
+    </ul>
+  </header>
