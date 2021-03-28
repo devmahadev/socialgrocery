@@ -4617,11 +4617,11 @@ background-size: 90%;
 }
 
 .team-member img {
-  border: 7px solid #fff;
-  border-radius: 50%;
-  padding: 5px;
-  width: 200px;
-margin-left: 90px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    /* width: 200px; */
+    margin-left: 50px;
 
 }
 
