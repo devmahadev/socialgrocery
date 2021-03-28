@@ -4340,6 +4340,29 @@ background-size: 90%;
 	}
 
 	
+	.orderFood-button33 {
+		width:210px;
+		display: inline-block;
+		padding: 20px 35px;
+		margin: 2px;
+		box-sizing: border-box;
+		cursor: pointer;
+		text-align: center;
+		vertical-align: middle;
+		color: #fff !important;
+		text-decoration: none !important;
+		font-family: "Arial", sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		text-shadow: 0 1px 0 rgba(0,0,0,.1);
+		border-radius: 3px;
+		background-clip: padding-box;
+		background-color: #f39c12;
+		border-color: #f39c12;
+		box-shadow: 0 1px 0 rgba(0,0,0,.15);
+		transition: filter 0.4s ease-out;
+	}
+	
 /* Footer */
 
 	#footer .copyright {
