@@ -4224,14 +4224,6 @@ background-size: 90%;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	
-background-image: url(/assets/images/tallinnQuiz.png);
-background-position: center;
-background-repeat: no-repeat;
-background-position-y: bottom;
-background-size: contain;
-background-size: 90%;
-
 }
 
 	#catering h1 {
@@ -4291,7 +4283,7 @@ background-size: 90%;
 				-webkit-object-position: center;
 				-ms-object-position: center;
 				object-position: center;
-				width: 100%;
+				width: 65%;
 			}
 		
 		}
