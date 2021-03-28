@@ -4027,6 +4027,7 @@
 						-webkit-object-position: center;
 						-ms-object-position: center;
 						object-position: center;
+						width: 100%;
 					}
 				
 				}
@@ -4159,6 +4160,7 @@ background-size: 90%;
 				-webkit-object-position: center;
 				-ms-object-position: center;
 				object-position: center;
+				width: 100%;
 			}
 		
 		}
