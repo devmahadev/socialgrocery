@@ -1,15 +1,15 @@
 # Site settings
-title: Indian Corner
-subtitle: by Social Restaurant Group
-email: info.indiancorner@gmail.com
-description: A Premium Indian Restaurant By Social Restaurant Group
+title: Social Grocery
+subtitle: International Supermarket by Social Restaurant Group
+email: info.socialgrocery@gmail.com
+description: A multi-national high quality muli-brand grocery store by Social Group.  
 baseurl: #"/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
 url: https://www.socialgrocery.ee/
 author: 
-street_address: e-Restaurant, Peetri, Rae Vald
-city: Peetri
-state: Rae Vald
-zip_code: 75312
+street_address: Tartu maantee 87d 
+city: near 'Sikupilli-Prisma' 
+state: Tallinn
+zip_code: 11412 
 country: Estonia
 phone: +372 56854024
 
